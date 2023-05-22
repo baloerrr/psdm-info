@@ -82,10 +82,13 @@ function Navbar() {
         </div>
       ) : (
         <div className="flex-none">
-          <ul tabIndex="0" className={`menu menu-horizontal bg-white`}>
+          <ul
+            tabIndex="0"
+            className={`menu menu-horizontal border-none bg-white`}
+          >
             <li>
               <Link
-                className="font-bold md:text-white text-slate-800 bg-white md:bg-violet-700 hover:bg-[#6528c9] hover:text-white"
+                className="font-bold md:text-white border-violet-700 text-slate-800 bg-white md:bg-violet-700 hover:bg-[#6528c9] hover:text-white"
                 to="beranda"
                 smooth={true}
                 spy={true}
